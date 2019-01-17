@@ -7,7 +7,7 @@
 
 ## Alternative: layered approach
 FROM registry.fedoraproject.org/fedora-minimal:latest
-ENV MYDNF yum
+ENV MYDNF microdnf
 
 MAINTAINER Markus Neteler <neteler@mundialis.de>
 
